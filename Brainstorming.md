@@ -71,6 +71,8 @@ Mobile App Dev - App Brainstorming
    - Uses an API to generate recipe suggestions from the ingredients available in the user’s kitchen.
 5. Music Lyrics Search  
    - Uses a Lyrics or Musixmatch API to search, view, and save lyrics to favorite songs.
+6. Pet Finder
+   - Uses the Adoptable Pet Data API to show adoptable pets near you.
 
 ## Top 3 New App Ideas
 1. Crypto Tracker
