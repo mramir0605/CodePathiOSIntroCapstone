@@ -107,10 +107,14 @@ Mobile App Dev - App Brainstorming
 
 
 ### 3. Breaking News
-- **Description**: A real-time, personalized news app that curates top global and local headlines based on user interests and location. Users can subscribe to categories like tech, sports, politics, and entertainment.
-- **Mobile:** Mobile is ideal for real-time alerts, location-based news delivery, and quick browsing.
-- **Story:** Keeps users informed with fast, relevant, and minimal-bias news. Combats news fatigue by filtering out low-impact headlines and clickbait.  
-- **Market:** News readers, professionals, travelers, and anyone who wants to stay informed without scrolling endlessly. Could target younger users turned off by traditional media.  
-- **Habit:** Users open the app multiple times daily or rely on push notifications for top stories. Customization and urgency drive repeated engagement.  
-- **Scope:** V1 could launch with top curated stories and category subscriptions. V2 adds location-based feeds and user-defined keywords. V3 could introduce personalization based on reading behavior and sentiment filters.
+- **Description:** A real-time news app that delivers top headlines tailored to the user’s interests and location. Users can follow categories such as technology, sports, world news, entertainment, and more.
+- **Mobile:** Mobile is ideal for instant push notifications, location-aware updates, and quick scrolling through brief summaries or headlines.
+- **Story:** Helps users stay informed with timely, relevant news while reducing information overload. Prioritizes meaningful stories and avoids sensational or repetitive content to maintain clarity and trust.  
+- **Market:** Appeals to students, professionals, travelers, and anyone who wants reliable updates without endless scrolling. Especially valuable for younger audiences seeking alternatives to traditional news outlets.  
+- **Habit:** Encourages multiple daily check-ins or passive engagement through notifications. Personalized alerts and topic-based feeds support ongoing usage.  
+- **Scope:**  
+  - **V1:** Core feed + category filtering + breaking news alerts.  
+  - **V2:** Local news integration + custom keyword subscriptions.  
+  - **V3:** Advanced personalization such as article recommendations, reading behavior insights, and sentiment-based filtering.
+
 
