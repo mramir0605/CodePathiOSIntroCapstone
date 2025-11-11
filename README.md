@@ -127,6 +127,8 @@ This app uses the CoinGecko API to display real-time cryptocurrency market data.
 ## Wireframes
 <img src="./sc1.png" width=300>
 
+<img src="./sc2.png" width=300>
+
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
