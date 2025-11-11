@@ -1,4 +1,4 @@
-# Breaking News V1
+# Crypto Tracker V1
 
 ## Table of Contents
 
