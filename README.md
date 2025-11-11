@@ -12,22 +12,22 @@ Here's a walkthrough  of implemented features:
 
 ### Features
 
-- [X] User sees a list of top cryptocurrencies as soon as the app opens.
-    - [X] Each coin displays name, symbol, current price, and 24h price change.
-    - [X] User can tap any coin to navigate to a details page.
+- [] User sees a list of top cryptocurrencies as soon as the app opens.
+    - [] Each coin displays name, symbol, current price, and 24h price change.
+    - [] User can tap any coin to navigate to a details page.
 
-- [X] On the details page, user can see additional information about the selected coin:
-    - [X] Price chart or simple price trend indicator (24h/7d)
-    - [X] Market cap, volume, and circulating supply
-    - [X] Short description and external website link
+- [] On the details page, user can see additional information about the selected coin:
+    - [] Price chart or simple price trend indicator (24h/7d)
+    - [] Market cap, volume, and circulating supply
+    - [] Short description and external website link
 
-- [X] User can add or remove coins from their **Watchlist** by tapping a star button.
-    - [X] Watchlist selections are saved using `UserDefaults` and persist across app launches.
+- [] User can add or remove coins from their **Watchlist** by tapping a star button.
+    - [] Watchlist selections are saved using `UserDefaults` and persist across app launches.
 
-- [X] On the **Watchlist** page, user sees only the coins they have favorited.
-    - [X] User can tap a coin in the Watchlist to view its details again.
+- [] On the **Watchlist** page, user sees only the coins they have favorited.
+    - [] User can tap a coin in the Watchlist to view its details again.
 
-- [X] The app uses a **Tab Bar** for navigation:
+- [] The app uses a **Tab Bar** for navigation:
     - **Market** (All coins)
     - **Watchlist** (Favorited coins)
     - **Learn** (Educational/overview page about crypto basics)
