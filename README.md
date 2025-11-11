@@ -125,7 +125,7 @@ This app uses the CoinGecko API to display real-time cryptocurrency market data.
 * Tap Watchlist tab to navigate to **Watchlist View**
 
 ## Wireframes
-<img src="./sc1.png" width=600>
+<img src="./sc1.png" width=300>
 
 ### [BONUS] Digital Wireframes & Mockups
 
