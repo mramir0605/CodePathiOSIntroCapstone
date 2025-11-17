@@ -1,4 +1,4 @@
-# Crypto Tracker V1
+# Headline Hub V1
 
 ## Table of Contents
 
@@ -12,43 +12,39 @@ Here's a walkthrough  of implemented features:
 
 ### Features
 
-- [] User sees a list of top cryptocurrencies as soon as the app opens.
-    - [] Each coin displays name, symbol, current price, and 24h price change.
-    - [] User can tap any coin to navigate to a details page.
+- []  User sees a list of the latest news headlines immediately upon opening the app.
+    - [] User can click on each item and navigate to the details page of the news article.
+  - []  User can filter news by title or description.
 
-- [] On the details page, user can see additional information about the selected coin:
-    - [] Price chart or simple price trend indicator (24h/7d)
-    - [] Market cap, volume, and circulating supply
-    - [] Short description and external website link
-
-- [] User can add or remove coins from their **Watchlist** by tapping a star button.
-    - [] Watchlist selections are saved using `UserDefaults` and persist across app launches.
-
-- [] On the **Watchlist** page, user sees only the coins they have favorited.
-    - [] User can tap a coin in the Watchlist to view its details again.
+- []  On the details page, user can see the source, author, publish date, image, and description of the article.
+    - [] User can mark an article as "Favorite" by clicking the star button.
+    - [] User can mark an article as "Read Later" by clicking on the bookmark button to save for later.
+    - [] User can click a button to navigate to an external link containing the full article.
+- [] On the Favorite page, user can see a list of articles that they have marked already as favorite.
+- []  On the Read Later page, user can see a list of articles that they have marked to read later.
+  
 
 - [] The app uses a **Tab Bar** for navigation:
-    - **Market** (All coins)
-    - **Watchlist** (Favorited coins)
-    - **Learn** (Educational/overview page about crypto basics)
+    - **News** (All news)
+    - **Favorites** (Favorited article)
+    - **Read later** (Read later)
 
 ### Description
 
-This app uses the CoinGecko API to display real-time cryptocurrency market data. Users can browse the top coins, view detailed price information, and save their favorite cryptocurrencies to a personal Watchlist for quick access. The app also provides a simple overview page to help users learn core crypto concepts.
+Headline Hub uses the News API to display breaking news headlines in real time. Users can filter articles, save favorites, and manage a personalized reading list.
 
 ### App Evaluation
 
-### 1. Crypto Tracker
-- **Description:** A real-time cryptocurrency tracking app that allows users to monitor coin prices, view market trends, and create personalized watchlists. Users can also explore basic explanations of each coin to better understand the crypto ecosystem.
-- **Category:** Finance / Education  
-- **Mobile:** Mobile-first experience enables quick price checks, push notifications for market changes, and glanceable dashboards. Interactive charts and widgets are optimized for on-the-go use.
-- **Story:** Designed to make the crypto world easier to understand, especially for beginners who may feel overwhelmed by complex trading platforms. Helps users stay informed without needing to actively invest.
-- **Market:** Perfect for crypto newcomers, students, casual traders, and anyone curious about digital currencies. Can also appeal to hobby investors who want a simple, informative interface.
-- **Habit:** Encourages frequent checking—crypto markets move constantly, so users may open the app daily or even hourly. Notifications, watchlists, and trending coins strengthen habit loops.
+### 1. Headline Hub
+- **Description:** A real-time news app that delivers top headlines tailored to the user’s interests and location. Users can follow categories such as technology, sports, world news, entertainment, and more.
+- **Mobile:** Mobile is ideal for instant push notifications, location-aware updates, and quick scrolling through brief summaries or headlines.
+- **Story:** Helps users stay informed with timely, relevant news while reducing information overload. Prioritizes meaningful stories and avoids sensational or repetitive content to maintain clarity and trust.  
+- **Market:** Appeals to students, professionals, travelers, and anyone who wants reliable updates without endless scrolling. Especially valuable for younger audiences seeking alternatives to traditional news outlets.  
+- **Habit:** Encourages multiple daily check-ins or passive engagement through notifications. Personalized alerts and topic-based feeds support ongoing usage.  
 - **Scope:**  
-  - **V1:** Basic watchlist + live price data + simple coin details.  
-  - **V2:** Price alerts, market news integration, and coin comparison tools.  
-  - **V3:** Portfolio simulation, community discussions, challenges, and learning modules.
+  - **V1:** Main news feed + title and description filtering.  
+  - **V2:** Local news integration + custom keyword subscriptions.  
+  - **V3:** Advanced personalization such as article recommendations, reading behavior insights, and sentiment-based filtering, breaking news alerts.
 
 ## Product Spec
 
@@ -56,21 +52,20 @@ This app uses the CoinGecko API to display real-time cryptocurrency market data.
 
 **Required Must-have Stories**
 
-* As a user, I want to see a list of the top cryptocurrencies when I open the app.
-* As a user, I want to tap on a coin to view more detailed information about it.
-* As a user, I want to add or remove coins from my Watchlist.
-* As a user, I want my Watchlist to persist even after closing and reopening the app (using UserDefaults).
-* As a user, I want to view my saved (favorited) coins in a dedicated Watchlist tab.
+* As a user, I want to see a list of the latest breaking news headlines as soon as I open the app.  
+* As a user, I want to read an article's description and have a link to open the full article.  
+* As a user, I want to mark articles as **Favorite** by clicking the star button.  
+* As a user, I want to mark articles to **Read Later** by clicking the bookmark button.  
+* As a user, I want to filter articles by title or description to quickly find relevant news.  
+* As a user, I want my saved articles (Favorites and Read Later) to persist across app sessions.
 * As a user, I want the app to load quickly and have a clean, simple UI that is easy to navigate.
 
 **Optional Nice-to-have Stories (Future Implementation)**
 
-* As a user, I want to search for a specific cryptocurrency by name or symbol.
-* As a user, I want to see a historical price chart of each cryptocurrency.
-* As a user, I want to receive price alerts when a coin changes above or below a chosen threshold.
-* As a user, I want to switch between currencies (USD, EUR, etc.).
-* As a user, I want to sort and filter coins (e.g., top gainers, top losers, highest market cap).
-* As a user, I want to share coin data or price updates with others through messaging or social apps.
+* As a user, I want to see category-specific news feeds (e.g., sports, technology, world, entertainment).  
+* As a user, I want to receive push notifications for breaking news.  
+* As a user, I want to share articles via social media or messaging apps.  
+* As a user, I want to see recommended articles based on my reading habits.
 
 
 ### 2. Screen Archetypes
@@ -98,31 +93,24 @@ This app uses the CoinGecko API to display real-time cryptocurrency market data.
 
 **Tab Navigation** (Tab to Screen)
 
-* Market (List of all coins)
-* Watchlist (User's favorited coins)
-* Learn (Basic crypto info / glossary)
+- **News** → Main headlines feed  
+- **Favorites** → Favorite articles  
+- **Read Later** → Saved articles 
 
 **Flow Navigation** (Screen to Screen)
 
 **Market View**
-* Tap a coin to navigate to **Coin Details View**
-* Tap Watchlist tab to navigate to **Watchlist View**
-* Tap Learn tab to navigate to **Learn View**
+  - Tap headline → **Article Details**
+  - Switch tabs → **Favorites** or **Read Later**
 
-**Coin Details View**
-* Tap star button to add/remove from Watchlist
-* Tap Market tab to return to **Market View**
-* Tap Watchlist tab to go to the **Watchlist View**
-* Tap Learn tab to go to the **Learn View**
+**News Details View**
+- Tap star button → add/remove **Favorite**
+- Tap bookmark button → add/remove **Read Later**
+- Switch tabs → **News**, **Favorites**, **Read Later**
 
-**Watchlist View**
-* Tap a coin to navigate to **Coin Details View**
-* Tap Market tab to navigate to **Market View**
-* Tap Learn tab to navigate to **Learn View**
-
-**Learn View**
-* Tap Market tab to navigate back to **Market View**
-* Tap Watchlist tab to navigate to **Watchlist View**
+**Favorites / Read Later**
+  - Tap article → **Article Details**
+  - Switch tabs → **News** or the other list
 
 ## Wireframes
 <img src="./sc1.png" width=300>
