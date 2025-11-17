@@ -82,17 +82,17 @@ Mobile App Dev - App Brainstorming
 
 ## New App Ideas - Evaluate and Categorize
 
-### 1. Crypto Tracker
-- **Description:** A real-time cryptocurrency tracking app that allows users to monitor coin prices, view market trends, and create personalized watchlists. Users can also explore basic explanations of each coin to better understand the crypto ecosystem.
-- **Category:** Finance / Education  
-- **Mobile:** Mobile-first experience enables quick price checks, push notifications for market changes, and glanceable dashboards. Interactive charts and widgets are optimized for on-the-go use.
-- **Story:** Designed to make the crypto world easier to understand, especially for beginners who may feel overwhelmed by complex trading platforms. Helps users stay informed without needing to actively invest.
-- **Market:** Perfect for crypto newcomers, students, casual traders, and anyone curious about digital currencies. Can also appeal to hobby investors who want a simple, informative interface.
-- **Habit:** Encourages frequent checking—crypto markets move constantly, so users may open the app daily or even hourly. Notifications, watchlists, and trending coins strengthen habit loops.
+
+### 1. Breaking News
+- **Description:** A real-time news app that delivers top headlines tailored to the user’s interests and location. Users can follow categories such as technology, sports, world news, entertainment, and more.
+- **Mobile:** Mobile is ideal for instant push notifications, location-aware updates, and quick scrolling through brief summaries or headlines.
+- **Story:** Helps users stay informed with timely, relevant news while reducing information overload. Prioritizes meaningful stories and avoids sensational or repetitive content to maintain clarity and trust.  
+- **Market:** Appeals to students, professionals, travelers, and anyone who wants reliable updates without endless scrolling. Especially valuable for younger audiences seeking alternatives to traditional news outlets.  
+- **Habit:** Encourages multiple daily check-ins or passive engagement through notifications. Personalized alerts and topic-based feeds support ongoing usage.  
 - **Scope:**  
-  - **V1:** Basic watchlist + live price data + simple coin profiles.  
-  - **V2:** Price alerts, market news integration, and coin comparison tools.  
-  - **V3:** Portfolio simulation, community discussions, challenges, and learning modules.
+  - **V1:** Main news feed + title and description filtering.  
+  - **V2:** Local news integration + custom keyword subscriptions.  
+  - **V3:** Advanced personalization such as article recommendations, reading behavior insights, and sentiment-based filtering, breaking news alerts.
 
 
 ### 2. Recipe App
@@ -108,15 +108,16 @@ Mobile App Dev - App Brainstorming
   - **V3:** Personalized meal plans, nutritional tracking, and adaptive recipe suggestions based on user behavior.
 
 
-### 3. Breaking News
-- **Description:** A real-time news app that delivers top headlines tailored to the user’s interests and location. Users can follow categories such as technology, sports, world news, entertainment, and more.
-- **Mobile:** Mobile is ideal for instant push notifications, location-aware updates, and quick scrolling through brief summaries or headlines.
-- **Story:** Helps users stay informed with timely, relevant news while reducing information overload. Prioritizes meaningful stories and avoids sensational or repetitive content to maintain clarity and trust.  
-- **Market:** Appeals to students, professionals, travelers, and anyone who wants reliable updates without endless scrolling. Especially valuable for younger audiences seeking alternatives to traditional news outlets.  
-- **Habit:** Encourages multiple daily check-ins or passive engagement through notifications. Personalized alerts and topic-based feeds support ongoing usage.  
+### 3. Crypto Tracker
+- **Description:** A real-time cryptocurrency tracking app that allows users to monitor coin prices, view market trends, and create personalized watchlists. Users can also explore basic explanations of each coin to better understand the crypto ecosystem.
+- **Category:** Finance / Education  
+- **Mobile:** Mobile-first experience enables quick price checks, push notifications for market changes, and glanceable dashboards. Interactive charts and widgets are optimized for on-the-go use.
+- **Story:** Designed to make the crypto world easier to understand, especially for beginners who may feel overwhelmed by complex trading platforms. Helps users stay informed without needing to actively invest.
+- **Market:** Perfect for crypto newcomers, students, casual traders, and anyone curious about digital currencies. Can also appeal to hobby investors who want a simple, informative interface.
+- **Habit:** Encourages frequent checking—crypto markets move constantly, so users may open the app daily or even hourly. Notifications, watchlists, and trending coins strengthen habit loops.
 - **Scope:**  
-  - **V1:** Core feed + category filtering + breaking news alerts.  
-  - **V2:** Local news integration + custom keyword subscriptions.  
-  - **V3:** Advanced personalization such as article recommendations, reading behavior insights, and sentiment-based filtering.
+  - **V1:** Basic watchlist + live price data + simple coin profiles.  
+  - **V2:** Price alerts, market news integration, and coin comparison tools.  
+  - **V3:** Portfolio simulation, community discussions, challenges, and learning modules.
 
 
