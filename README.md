@@ -113,9 +113,9 @@ Headline Hub uses the News API to display breaking news headlines in real time. 
   - Switch tabs → **News** or the other list
 
 ## Wireframes
-<img src="./sc1.png" width=300>
+<img src="./wireframe.png">
 
-<img src="./sc2.png" width=300>
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
