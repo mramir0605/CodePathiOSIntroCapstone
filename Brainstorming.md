@@ -75,15 +75,15 @@ Mobile App Dev - App Brainstorming
    - Uses the Adoptable Pet Data API to show adoptable pets near you.
 
 ## Top 3 New App Ideas
-1. Crypto Tracker
+1. Headline Hub
 2. Recipe App
-3. Breaking News
+3. Crypto Tracker 
 
 
 ## New App Ideas - Evaluate and Categorize
 
 
-### 1. Breaking News
+### 1. Headline Hub
 - **Description:** A real-time news app that delivers top headlines tailored to the user’s interests and location. Users can follow categories such as technology, sports, world news, entertainment, and more.
 - **Mobile:** Mobile is ideal for instant push notifications, location-aware updates, and quick scrolling through brief summaries or headlines.
 - **Story:** Helps users stay informed with timely, relevant news while reducing information overload. Prioritizes meaningful stories and avoids sensational or repetitive content to maintain clarity and trust.  
