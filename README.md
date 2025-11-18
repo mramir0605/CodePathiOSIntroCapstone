@@ -12,16 +12,17 @@ Here's a walkthrough  of implemented features:
 
 ### Features
 
-- []  User sees a list of the latest news headlines immediately upon opening the app.
-    - [] User can click on each item and navigate to the details page of the news article.
-  - []  User can filter news by title or description.
+- [X]  User sees a list of the latest news headlines immediately upon opening the app.
+    - [X] User can click on each item and navigate to the details page of the news article.
+  - [X]  User can filter news by title or description.
+      - [X]  If no news match the keyword, show the message: "No news found for your search."    
 
-- []  On the details page, user can see the source, author, publish date, image, and description of the article.
-    - [] User can mark an article as "Favorite" by clicking the star button.
-    - [] User can mark an article as "Read Later" by clicking on the bookmark button to save for later.
-    - [] User can click a button to navigate to an external link containing the full article.
+- [X]  On the details page, user can see the source, author, publish date, image, and description of the article.
+    - [X] User can mark an article as "Favorite" by clicking the star button.
+    - [X] User can mark an article as "Read Later" by clicking on the bookmark button to save for later.
+    - [X] User can click a button to navigate to an external link containing the full article.
 - [] On the Favorite page, user can see a list of articles that they have marked already as favorite.
-- []  On the Read Later page, user can see a list of articles that they have marked to read later.
+- [X]  On the Read Later page, user can see a list of articles that they have marked to read later.
   
 
 - [] The app uses a **Tab Bar** for navigation:
