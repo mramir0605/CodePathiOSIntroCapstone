@@ -34,7 +34,7 @@ Here's a walkthrough  of implemented features:
 
 ### Description
 
-Headline Hub uses the News API to display breaking news headlines in real time. Users can filter articles, save favorites, and manage a personalized reading list.
+Headline Hub uses the News API to display breaking news headlines in real time. Users can filter articles by keywords, save favorites, share articles, and manage a personalized reading list.
 
 ### App Evaluation
 
@@ -45,7 +45,7 @@ Headline Hub uses the News API to display breaking news headlines in real time. 
 - **Market:** Appeals to students, professionals, travelers, and anyone who wants reliable updates without endless scrolling. Especially valuable for younger audiences seeking alternatives to traditional news outlets.  
 - **Habit:** Encourages multiple daily check-ins or passive engagement through notifications. Personalized alerts and topic-based feeds support ongoing usage.  
 - **Scope:**  
-  - **V1:** Main news feed + title and description filtering + marking articles as Favorites or save them to Read Later.
+  - **V1:** Main news feed + title and description filtering + marking articles as Favorites or save them to Read Later + share articles with others directly from the app.
   - **V2:** Local news integration + custom keyword subscriptions.  
   - **V3:** Advanced personalization such as article recommendations, reading behavior insights, and sentiment-based filtering, breaking news alerts.
 
