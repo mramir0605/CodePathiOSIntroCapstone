@@ -25,7 +25,7 @@ Here's a walkthrough  of implemented features:
 - [X]  On the Read Later page, user can see a list of articles that they have marked to read later.
   
 
-- [] The app uses a **Tab Bar** for navigation:
+- [X] The app uses a **Tab Bar** for navigation:
     - **News** (All news)
     - **Favorites** (Favorited article)
     - **Read later** (Read later)
