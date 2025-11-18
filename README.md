@@ -70,23 +70,24 @@ Headline Hub uses the News API to display breaking news headlines in real time. 
 
 ### 2. Screen Archetypes
 
-**Market View (Home)**
-* As a user, I want to see a list of top cryptocurrencies with price and 24h change as soon as I open the app.
-* As a user, I want to tap on a coin to view more details about it.
+**News View (Home)**
+* As a user, I want to see a list of top news articles with title and image as soon as I open the app.
+* As a user, I want to tap on a news article to view more details about it.
+* As a user, I want to filter or search news by keyword.
 
-**Coin Details View**
-* As a user, I want to see more in-depth information about the selected cryptocurrency (price, market cap, volume, description).
-* As a user, I want to add or remove the coin from my Watchlist using a favorite/star button.
-* As a user, I want the option to open the coin’s official website or external resources for more info.
+**News Details View**
+* As a user, I want to see a concise summary of each news article, including the title, image, source, author, and publication date, so I can quickly understand the key details at a glance.
+* As a user, I want to add or remove the article from my Favorites using a star/favorite button
+* As a user, I want the option to open the original article on the publisher’s website for more details.
 
-**Watchlist View**
-* As a user, I want to see a list of the cryptocurrencies I have marked as favorites.
-* As a user, I want this list to update automatically when I add or remove coins.
+**Favorite View**
+* As a user, I want to see a list of news I have marked as favorites.
+* As a user, I want this list to update automatically when I add or remove news articles.
 * As a user, I want my watchlist to persist when I close or reopen the app.
 
-**Learn / Info View (optional third tab)**
-* As a user, I want to see basic explanations about cryptocurrency concepts (e.g., market cap, blockchain, how wallets work).
-* As a user, I want this section to be simple and easy to understand.
+**Read Later View **
+* As a user, I want to see news articles I have saved to read later.
+* As a user, I want this section to be easy to navigate with minimal distractions.
 
 
 ### 3. Navigation
@@ -99,7 +100,7 @@ Headline Hub uses the News API to display breaking news headlines in real time. 
 
 **Flow Navigation** (Screen to Screen)
 
-**Market View**
+**News View**
   - Tap headline → **Article Details**
   - Switch tabs → **Favorites** or **Read Later**
 
