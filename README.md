@@ -59,16 +59,18 @@ Headline Hub uses the News API to display breaking news headlines in real time. 
 * As a user, I want to read an article's description and have a link to open the full article.  
 * As a user, I want to mark articles as **Favorite** by clicking the star button.  
 * As a user, I want to mark articles to **Read Later** by clicking the bookmark button.  
-* As a user, I want to filter articles by title or description to quickly find relevant news.  
+* As a user, I want to filter articles by keywords to quickly find relevant news.
+* As a user, i want to share articles with others directly from the app.
 * As a user, I want my saved articles (Favorites and Read Later) to persist across app sessions.
 * As a user, I want the app to load quickly and have a clean, simple UI that is easy to navigate.
 
 **Optional Nice-to-have Stories (Future Implementation)**
 
-* As a user, I want to see category-specific news feeds (e.g., sports, technology, world, entertainment).  
-* As a user, I want to receive push notifications for breaking news.  
-* As a user, I want to share articles via social media or messaging apps.  
+* As a user, I want to sync my preferences and favorites across multiple devices. 
+* As a user, I want to receive push notifications for breaking news.    
 * As a user, I want to see recommended articles based on my reading habits.
+* As a user, I want the option to translate articles into my preferred language.
+* As a user, I want to report issues with an article (broken link, inappropriate content).
 
 
 ### 2. Screen Archetypes
