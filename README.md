@@ -10,6 +10,9 @@
 ## Overview
 Here's a walkthrough  of implemented features:
 
+<img src="Walkthrough.gif" alt="Walkthrough" width='300'>
+
+
 ### Features
 
 - [X]  User sees a list of the latest news headlines immediately upon opening the app.
